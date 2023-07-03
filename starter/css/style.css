@@ -117,7 +117,7 @@ h1 {
   margin-bottom: 50px;
 }
 
-.flex-item3 {
+/* .flex-item3 {
   display: flex;
   width: 20%;
   justify-content: flex-end;
@@ -133,4 +133,58 @@ h1 {
   width: 80%;
   background-color: blue;
 
+} */
+
+.work{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
+
+.work h2{
+  padding-right: 40px;
+}
+
+.work-main{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+.work-title{
+  background-color: white;
+  margin-top: auto;
+  margin-bottom: 0px;
+  max-width: 140px;
+  padding: 4px;
+}
+
+.work-wrapper{
+  display: flex;
+  flex-direction:column ;
+  width: 100%;
+  gap: 8px;
+}
+.flexitem{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 8px;
+flex-wrap: wrap;
+width: 100%;
+
+}
+
+.flex-item{
+  display: flex;
+  width: 49%;
+  padding: 4px;
+  height: 120px;
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+#no-1{
+  
+}
+
